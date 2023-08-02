@@ -21,6 +21,9 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
 
 BOARD_NAME := SRPTL10A002
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
