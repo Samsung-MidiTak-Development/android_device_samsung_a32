@@ -37,6 +37,7 @@ vendor/lib64/hi2021q_mipi_raw_IdxMgr.so
 vendor/lib64/hi2021q_mipi_raw_tuning.so
 vendor/lib64/imx355_mipi_raw_IdxMgr.so
 vendor/lib64/imx355_mipi_raw_tuning.so
+vendor/lib64/libcameracustom.so
 vendor/lib64/s5kgw3_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgw3_mipi_raw_tuning.so
 vendor/lib64/sr846d_mipi_raw_IdxMgr.so
