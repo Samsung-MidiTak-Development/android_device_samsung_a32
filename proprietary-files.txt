@@ -42,3 +42,16 @@ vendor/lib64/s5kgw3_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgw3_mipi_raw_tuning.so
 vendor/lib64/sr846d_mipi_raw_IdxMgr.so
 vendor/lib64/sr846d_mipi_raw_tuning.so
+
+# NFC
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
+vendor/bin/hw/sec.android.hardware.nfc@1.2-service
+vendor/etc/init/init.nfc.samsung.rc
+vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
+-vendor/etc/vintf/manifest/sec.android.hardware.nfc@1.2-service.xml
+vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
+vendor/etc/nfc/sec_s3nrn4v_swreg.bin
+vendor/lib/libnxp_extamp_intf.so
+vendor/lib64/libnxp_extamp_intf.so
+vendor/lib64/nfc_nci_sec.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
