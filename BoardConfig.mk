@@ -21,5 +21,8 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
 
 BOARD_NAME := SRPTL10A002
 
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit the proprietary files
 include vendor/samsung/a32/BoardConfigVendor.mk
